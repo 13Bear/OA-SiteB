@@ -2,19 +2,20 @@ body {
     font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
-    color: #003300;
-    background-color: #598BAF; /* Air Force Blue */
+    color: #000000;
+    background-color: #a57f70; /* Air Force Blue */
 }
 
 h1 {
-    font-size: 4em; /* Adjusted h1 font size */
+    font-size: 3em; /* Adjusted h1 font size */
+    font-family: Vacelyn !important;
 }
 h4, p {
-    font-size: 3em; /* Adjusted h4 and p font size */
+    font-size: 1.7em; /* Adjusted h4 and p font size */
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 70em;
     margin: 0 auto; /* Center the content */
 }
 
@@ -54,10 +55,10 @@ hr {
 
 /* About Section */
 .about-section {
-    background-color: #FFFFFF; /* White */
-    color: #598BAF;
+    background-color: #f3ece4; /* White */
     text-align: center;
-    padding: 4em; /* Updated to use em units */
+    height: 50em !important;
+    padding: 6em; /* Updated to use em units */
 }
 
 .w3-row.about-content {
@@ -73,8 +74,8 @@ img {
 }
 
 /* How it Works Section */
-.slideshow-container {
-    background-color: #FFFFFA; /* Off-White */
+.howItWorks-section {
+    background-color: #f3ece4; /* Off-White */
     position: relative;
     max-width: 100%;
     margin-top: 20px;
@@ -82,15 +83,15 @@ img {
 
 /* Key Areas to Treat Section */
 .w3-row.w3-padding-64 img {
-    background-color: #FFFFFA; /* Off-White */
+    background-color: #f3ece4; /* Off-White */
     max-width: 100%;
     margin-bottom: 20px;
+    height: 90em;
 }
 
 /* Contact Section */
 .contact-section {
-    background-color: #FFFFFA; /* Dark Red */
-    color: #598BAF;
+    background-color: #333333; /* Grey */
+    color: white;
     padding: 4em; /* Updated to use em units */
 }
-
